@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Start</string>
+    <string name="title_activity_map">map</string>
+    <string name="whatToRecycle">Какво ще рециклираме?</string>
+    <string name="description_yellow">Жълто</string>
+    <string name="description_blue">Синьо</string>
+    <string name="description_green">Зелено</string>
+    <string name="getCurrentLocation">Текущи координати и град</string>
+    <string name="coordinates">Координати</string>
+    <string name="title_activity_containers">Map</string>
+    <string name="password">Парола</string>
+    <string name="username">Потребителско име</string>
+    <string name="username_">Потребителско име:</string>
+    <string name="signIn">Вход</string>
+    <string name="google_maps_key">AIzaSyA4pN7n8DMAfyWCg1mgbZYEgD_eZkGkkc4</string>
+    <string name="register">Регистрирай се</string>
+    <string name="confirmPassword">Потвърди парола</string>
+    <string name="title_activity_sign_in_or_register">signInOrRegister</string>
+    <string name="title_activity_map_for_recycling">Map</string>
+    <string name="email">Email</string>
+    <string name="tv_login">Вече имаш регистрация? Влез!</string>
+    <string name="tv_register">Регистрирай се!</string>
+    <string name="tv_enterDirectly">Пропусни</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_yellow">пластмаса и метал</string>
+    <string name="tv_blue">хартия и картон</string>
+    <string name="tv_green">стъклени отпадъци</string>
+    <string name="logout">Изход</string>
+    <string name="title_activity_my_map">Map</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="why_to_recycle">Защо да рециклираме?</string>
+    <string name="how_to_recycle">Как да рециклираме правилно?</string>
+    <string name="int_about_recycling">Любопитно</string>
+
+    <string name="economy">Рециклирането носи ползи на икономиката. В много страни компаниите разчитат на програми за рециклиране, които да им предоставят необработени материали за производството. В САЩ например тази индустрия възлиза на $236 милиарда печалба годишно. </string>
+    <string name="employee">Благодарение на него се създават много работни места. Повече от 56, 000 предприятия назначават 1.1 милиона служители. </string>
+    <string name="environment">Рециклирането е благоприятно за оконата среда. Хаби по-малко енергия, изисква по-малко естествени ресурси и предотвратява трупането на боклуци в депата за отпадъци. </string>
+
+    <string name="energy_save">Пести значително количество енергия в сравнение с производство, което използва необработени суровини.
+        Например рециклирането на алуминиеви кенчета спестява 95% енергия. </string>
+
+    <string name="global_warming">През 2000, рециклирането на твърди отпадъци "спести" на въздуха
+        32 900 000 тона въглероден диоксид </string>
+    Reduces Water Pollution Making goods from recycled materials generates
+    far less water pollution than manufacturing from virgin materials.
+    <string name="water_pollution">Благодарение на рециклирането замърсяването на водните ресурси е
+        значително по-малко отколкото при производство с необработени суровини. </string>
+    Protects Wildlife Using recycled materials reduces the
+    need to damage forests, wetlands, rivers and other places essential to wildlife.
+    <string name="wildlife">Използването на рецклирани материали намалява нуждата от унищожаването на гори,
+        влажни зони и други ареали за животнските видове.    </string>
+    <string name="landfill">Предотвратява от създаването на депа за отпадъци. </string>
+    <string name="garbage">Намалява количеството отпадъци. Всеки от нас изхвърля средно по 3,5 килограма боклуци на ден, като по-голямата част от тях се изгарят в депата за отпадъци. </string>
+    <string-array name="benefits">
+        <item>@string/economy</item>
+        <item>@string/employee</item>
+        <item>@string/environment</item>
+        <item>@string/energy_save</item>
+        <item>@string/global_warming</item>
+        <item>@string/water_pollution</item>
+        <item>@string/wildlife</item>
+        <item>@string/landfill</item>
+        <item>@string/garbage</item>
+
+    </string-array>
+    <string name="player_error">Грешка при стартирането на YouTube: %s</string>
+    <string name="seek_to">Отиди на </string>
+    <string name="seek_to_hint">Секунди</string>
+    <string name="economy_name">Икономика</string>
+    <string name="employee_name">Нови работни места</string>
+    <string name="garbage_name">Отпадъци</string>
+    <string name="environment_name">Околна среда</string>
+    <string name="energy_name">Съхраняване на енергия</string>
+    <string name="forest_name">Опазване на земята</string>
+    <string name="global_warming_name">Глобално затопляне</string>
+    <string name="waste_name">Опазване на водата</string>
+    <string name="wildlife_name">Дива природа</string>
+    <string name="left_arrow">Лява стрелка</string>
+    <string name="right_arrow">Дясна стрелка</string>
+
+
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_try">Try</string>
+</resources>
+<!--<string name="economy">Рециклирането носи ползи на икономиката. В много страни компаниите разчитат на програми за рециклиране, които да им предоставят необработени материали за производството. В САЩ например тази индустрия възлиза на $236 милиарда печалба годишно. </string>-->
+<!--<string name="employee">Благодарение на него се създават много работни места. Повече от 56, 000 предприятия назначават 1.1 милиона служители. </string>-->
+<!--<string name="environment">Рециклирането е благоприятно за оконата среда. Хаби по-малко енергия, изисква по-малко естествени ресурси и предотвратява трупането на боклуци в депата за отпадъци. </string>-->
+
+<!--<string name="energy_save">Пести значително количество енергия в сравнение с производство, което използва необработени суровини.-->
+    <!--Например рециклирането на алуминиеви кенчета спестява 95% енергия. </string>-->
+
+<!--<string name="global_warming">През 2000, рециклирането на твърди отпадъци "спести" на въздуха-->
+        <!--32 900 000 тона въглероден диоксид </string>-->
+    <!--Reduces Water Pollution Making goods from recycled materials generates-->
+    <!--far less water pollution than manufacturing from virgin materials.-->
+<!--<string name="water_pollution">Благодарение на рециклирането замърсяването на водните ресурси е-->
+    <!--значително по-малко отколкото при производство с необработени суровини. </string>-->
+    <!--Protects Wildlife Using recycled materials reduces the-->
+    <!--need to damage forests, wetlands, rivers and other places essential to wildlife.-->
+<!--<string name="wildlife">Използването на рецклирани материали намалява нуждата от унищожаването на гори,-->
+       <!--влажни зони и други ареали за животнските видове.    </string>-->
+<!--<string name="landfill">Предотвратява от създаването на депа за отпадъци. </string>-->
+<!--<string name="garbage">Намалява количеството отпадъци. Всеки от нас изхвърля средно по 3,5 килограма боклуци на ден, като по-голямата част от тях се изгарят в депата за отпадъци. </string>-->

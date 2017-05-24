@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_what_to_recycle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    tools:context="com.example.pc.rcycler.whatToRecycleFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        >
+
+        <TextView
+            android:id="@+id/tv_what"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/whatToRecycle"
+            android:textColor="#1B5E20"
+            android:textSize="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal" />
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_width="80dp"
+            android:layout_gravity="end|center_vertical|center_horizontal|center"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:layout_marginRight="8dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/blue"
+                android:id="@+id/blueCircle"
+                android:layout_gravity="bottom|end|center_vertical"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="56dp"
+                android:contentDescription="@string/description_blue"
+                android:layout_alignParentBottom="true" />
+            <TextView
+                android:text="@string/tv_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_blue"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/blueCircle"
+                android:textColor="@color/colorLightBlue"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:layout_marginTop="8dp"
+                android:textSize="14sp"
+                android:textIsSelectable="false"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_width="80dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_gravity="center_vertical|center_horizontal">
+
+            <ImageView
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/yellow"
+                android:id="@+id/yellowCircle"
+                android:layout_width="80dp"
+                android:layout_marginTop="56dp"
+                android:layout_gravity="bottom|center"
+                android:contentDescription="@string/description_yellow"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_alignParentBottom="true" />
+
+            <TextView
+                android:text="@string/tv_yellow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_yellow"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/yellowCircle"
+                android:textColor="@color/colorLightYellow"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:layout_marginTop="8dp"
+                android:textSize="14sp"
+                android:textIsSelectable="false" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_width="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_gravity="bottom|start"
+            android:gravity="center_vertical|center_horizontal|center">
+            <ImageView
+                app:srcCompat="@drawable/green"
+                android:id="@+id/greenCircle"
+                android:layout_width="80dp"
+                android:layout_marginTop="56dp"
+                android:layout_height="80dp"
+                android:layout_gravity="bottom|start"
+                android:layout_marginLeft="8dp"
+                android:contentDescription="@string/description_green"
+                android:layout_alignParentBottom="true" />
+            <TextView
+                android:text="@string/tv_green"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_green"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/greenCircle"
+                android:textColor="@color/colorLightGreen"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:layout_marginTop="8dp"
+                android:textSize="14sp"
+                android:textIsSelectable="false" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+    <ProgressBar
+        android:id="@+id/progress"
+        style="@style/Base.Widget.AppCompat.ProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:indeterminate="true"
+        android:visibility="invisible"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:alpha="0.5"
+        android:background="@drawable/back">
+
+        <Button
+            android:text="@string/coordinates"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/getCoordinates"
+            android:background="@color/colorLightGreen"
+            android:textColor="@android:color/white"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="16dp" />
+
+        <!--<ImageView-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--app:srcCompat="@drawable/qr_picture"-->
+        <!--android:id="@+id/qr"-->
+        <!--android:layout_gravity="bottom|right"-->
+        <!--android:layout_margin="16dp"-->
+        <!--android:onClick="buttonClick"/>-->
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/qr_picture"
+            android:id="@+id/qr"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="16dp"
+
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/info"
+            android:id="@+id/info"
+            android:layout_gravity="bottom|left"
+            android:layout_margin="16dp"/>
+        <!--<Button-->
+        <!--android:text="Map"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/goToMap"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_gravity="center" />-->
+    </FrameLayout>
+
+</LinearLayout>

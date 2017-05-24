@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollHorizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.pc.rcycler.Try"
+    tools:showIn="@layout/activity_try"
+
+    >
+
+
+        <!--<HorizontalScrollView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollVertical">
+            <LinearLayout
+                android:id="@+id/imageGallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+<Button
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+android:text="button 1"
+    />
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:text="button 2"
+                    />
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:text="button 3"
+                    /> <Button
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:text="button 4"
+                /> <Button
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:text="button 5"
+                /> <Button
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:text="button 6"
+                /> <Button
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:text="button 7"
+                /> <Button
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:text="button 8"
+                /> <Button
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:text="button 9"
+                /> <Button
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:text="button 10"
+                />
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:contentDescription="@string/economy_name"-->
+                <!--android:src="@drawable/coin644" />-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:contentDescription="@string/employee_name"-->
+                <!--android:src="@drawable/user200" />-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:contentDescription="@string/garbage_name"-->
+                <!--android:src="@drawable/garbage64" />-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:contentDescription="@string/environment_name"-->
+                <!--android:src="@drawable/env64" />-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:contentDescription="@string/energy_name"-->
+                <!--android:src="@drawable/save_energy_light" />-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:contentDescription="@string/forest_name"-->
+                <!--android:src="@drawable/forest64" />-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:contentDescription="@string/global_warming_name"-->
+                <!--android:src="@drawable/global_warming200" />-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:contentDescription="@string/waste_name"-->
+                <!--android:src="@drawable/waste" />-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:contentDescription="@string/wildlife_name"-->
+                <!--android:src="@drawable/willife64" />-->
+
+</LinearLayout>
+</ScrollView>
+        </HorizontalScrollView>
+
+<!--</HorizontalScrollView>-->
