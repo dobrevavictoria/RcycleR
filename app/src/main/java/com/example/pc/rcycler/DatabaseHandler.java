@@ -57,7 +57,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
      * All CRUD(Create, Read, Update, Delete) Operations
      */
 
-    // Adding new contact
+    // Adding new user activity
     void addUser_activity(User_activity useract) {
         SQLiteDatabase db = this.getWritableDatabase();
 
@@ -72,7 +72,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         db.close(); // Closing database connection
     }
 
-    // Getting single contact
+    // Getting single activity
      User_activity getUserActivity(int id) {
         SQLiteDatabase db = this.getReadableDatabase();
 
@@ -84,11 +84,11 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 
         User_activity useract = new User_activity(Integer.parseInt(cursor.getString(0)),
                 cursor.getString(1), cursor.getString(2), cursor.getString(3));
-        // return contact
+        // return single activity
         return useract;
     }
 
-    // Getting All Contacts
+    // Getting All activities
     public List<User_activity> getAllActivities() {
         List<User_activity> useractList = new ArrayList<User_activity>();
         // Select All Query
@@ -110,7 +110,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
             } while (cursor.moveToNext());
         }
 
-        // return contact list
+        // return user activity list
         return useractList;
     }
 
@@ -132,33 +132,12 @@ public class DatabaseHandler extends SQLiteOpenHelper {
             } while (cursor.moveToNext());
         }
 
-        // return contact list
+        // return list of activities
         return useractList;
     }
 
-    // Updating single contact
-//    public int updateContact(User_activity useract) {
-//        SQLiteDatabase db = this.getWritableDatabase();
-//
-//        ContentValues values = new ContentValues();
-//        values.put(KEY_NAME, contact.getName());
-//        values.put(KEY_PH_NO, contact.getPhoneNumber());
-//
-//        // updating row
-//        return db.update(TABLE_CONTACTS, values, KEY_ID + " = ?",
-//                new String[] { String.valueOf(contact.getID()) });
-//    }
-//
-//    // Deleting single contact
-//    public void deleteContact(Contact contact) {
-//        SQLiteDatabase db = this.getWritableDatabase();
-//        db.delete(TABLE_CONTACTS, KEY_ID + " = ?",
-//                new String[] { String.valueOf(contact.getID()) });
-//        db.close();
-//    }
 
-
-    // Getting contacts Count
+    // Getting User Activities Count
     public int getUserActivitiesCount() {
         String countQuery = "SELECT  * FROM " + TABLE_DATA;
         SQLiteDatabase db = this.getReadableDatabase();

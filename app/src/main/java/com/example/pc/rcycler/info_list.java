@@ -53,12 +53,6 @@ public class info_list extends AppCompatActivity {
     String[] myDates;
     DatabaseHandler db = new DatabaseHandler(this);
 
-
-    //    int br = db.getUserActivitiesCount(); // broi activities, t.e. skaniraniq
-//    Date [] dates = new Date[br];
-//    String [] dates_str = new String[br];
-//    for(int i=0;i<br;i++)
-//    {dates_str[i]= db.get}
     CaldroidFragment caldroidFragment = new CaldroidFragment();
     final SimpleDateFormat formatter = new SimpleDateFormat("dd MMM yyyy");
 
@@ -128,22 +122,12 @@ public class info_list extends AppCompatActivity {
 
                     str = str + "\n\n" + "Id: " + ua.getID() + "\n" + "Дата: " + ua.getDate() + "\n" + "Час: " + ua.getTime() + "\n" + "Рециклиран материал: " + ua.getMaterial();
                     Log.d("Name: ", str);
-
-//                    LayoutInflater inflater = LayoutInflater.from(info_list.this);
-//                    View view = inflater.inflate(R.layout.custom, null);
                     final View layout = getLayoutInflater().inflate(R.layout.custom, null);
                     final TextView txt = (TextView) layout.findViewById(R.id.history);
                     txt.setText(str);
-//                    alertDialog.setMessage(str);
                     alertDialog.setView(layout);
                     alertDialog.setCancelable(true);
-//                    alertDialog.setPositiveButton("Продължи", new DialogInterface.OnClickListener() {
-//                        @Override
-//                        public void onClick(DialogInterface dialog, int which) {
-//                            dialog.dismiss();
-//                        }
-//
-//                    });
+
                 }
                     alertDialog.setNegativeButton("Затвори", new DialogInterface.OnClickListener() {
                         @Override
@@ -151,7 +135,7 @@ public class info_list extends AppCompatActivity {
                             dialog.dismiss();
                         }
                     });
-                    alertDialog.show();  //<-- See This!
+                    alertDialog.show(); 
 
             }
 
