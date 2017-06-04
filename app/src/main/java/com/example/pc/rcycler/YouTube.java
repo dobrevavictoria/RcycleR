@@ -40,7 +40,7 @@ public class YouTube extends YouTubeBaseActivity implements YouTubePlayer.OnInit
             if(Integer.parseInt(value) == 6 ||Integer.parseInt(value) == 13) {player.cueVideo("tByCDBWmY5A");}//https://www.youtube.com/watch?v=tByCDBWmY5A
             if(Integer.parseInt(value) == 7 || Integer.parseInt(value) == 14) {player.cueVideo("JxQdpt09U3U");}//https://www.youtube.com/watch?v=JxQdpt09U3U
             if(Integer.parseInt(value) == 8 || Integer.parseInt(value) == 15) {player.cueVideo("BN1T7VVdgxg");}//https://www.youtube.com/watch?v=BN1T7VVdgxg
-            if(Integer.parseInt(value) == 17) {player.cueVideo("XX3WEe5TaAU");}//https://www.youtube.com/watch?v=XX3WEe5TaAU
+            if(Integer.parseInt(value) == 18 || Integer.parseInt(value) == 17) {player.cueVideo("XX3WEe5TaAU");}//https://www.youtube.com/watch?v=XX3WEe5TaAU
         }
     }
 

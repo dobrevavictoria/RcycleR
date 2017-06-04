@@ -6,6 +6,11 @@
     <string name="description_blue">Синьо</string>
     <string name="description_green">Зелено</string>
     <string name="getCurrentLocation">Текущи координати и град</string>
+
+    <string name="customize">Customize</string>
+    <string name="show_dialog">Show Dialog</string>
+    <string name="undo">Undo</string>
+    <string name="history">Хронология</string>
     <string name="coordinates">Координати</string>
     <string name="title_activity_containers">Map</string>
     <string name="password">Парола</string>
@@ -32,6 +37,7 @@
     <string name="why_to_recycle">Защо да рециклираме?</string>
     <string name="how_to_recycle">Как да рециклираме правилно?</string>
     <string name="int_about_recycling">Любопитно</string>
+    <string name="calendar"> Календар </string>
 
     <string name="economy">Рециклирането носи ползи на икономиката. В много страни компаниите разчитат на програми за рециклиране, които да им предоставят необработени материали за производството. В САЩ например тази индустрия възлиза на $236 милиарда печалба годишно. </string>
     <string name="employee">Благодарение на него се създават много работни места. Повече от 56, 000 предприятия назначават 1.1 милиона служители. </string>
@@ -80,8 +86,6 @@
     <string name="right_arrow">Дясна стрелка</string>
 
 
-
-
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
@@ -95,23 +99,8 @@
         completions."
     </string>
     <string name="title_activity_try">Try</string>
-</resources>
-<!--<string name="economy">Рециклирането носи ползи на икономиката. В много страни компаниите разчитат на програми за рециклиране, които да им предоставят необработени материали за производството. В САЩ например тази индустрия възлиза на $236 милиарда печалба годишно. </string>-->
-<!--<string name="employee">Благодарение на него се създават много работни места. Повече от 56, 000 предприятия назначават 1.1 милиона служители. </string>-->
-<!--<string name="environment">Рециклирането е благоприятно за оконата среда. Хаби по-малко енергия, изисква по-малко естествени ресурси и предотвратява трупането на боклуци в депата за отпадъци. </string>-->
+</resources><!--<string name="economy">Рециклирането носи ползи на икономиката. В много страни компаниите разчитат на програми за рециклиране, които да им предоставят необработени материали за производството. В САЩ например тази индустрия възлиза на $236 милиарда печалба годишно. </string>--><!--<string name="employee">Благодарение на него се създават много работни места. Повече от 56, 000 предприятия назначават 1.1 милиона служители. </string>--><!--<string name="environment">Рециклирането е благоприятно за оконата среда. Хаби по-малко енергия, изисква по-малко естествени ресурси и предотвратява трупането на боклуци в депата за отпадъци. </string>-->
 
-<!--<string name="energy_save">Пести значително количество енергия в сравнение с производство, което използва необработени суровини.-->
-    <!--Например рециклирането на алуминиеви кенчета спестява 95% енергия. </string>-->
+    <!--<string name="energy_save">Пести значително количество енергия в сравнение с производство, което използва необработени суровини.--><!--Например рециклирането на алуминиеви кенчета спестява 95% енергия. </string>-->
 
-<!--<string name="global_warming">През 2000, рециклирането на твърди отпадъци "спести" на въздуха-->
-        <!--32 900 000 тона въглероден диоксид </string>-->
-    <!--Reduces Water Pollution Making goods from recycled materials generates-->
-    <!--far less water pollution than manufacturing from virgin materials.-->
-<!--<string name="water_pollution">Благодарение на рециклирането замърсяването на водните ресурси е-->
-    <!--значително по-малко отколкото при производство с необработени суровини. </string>-->
-    <!--Protects Wildlife Using recycled materials reduces the-->
-    <!--need to damage forests, wetlands, rivers and other places essential to wildlife.-->
-<!--<string name="wildlife">Използването на рецклирани материали намалява нуждата от унищожаването на гори,-->
-       <!--влажни зони и други ареали за животнските видове.    </string>-->
-<!--<string name="landfill">Предотвратява от създаването на депа за отпадъци. </string>-->
-<!--<string name="garbage">Намалява количеството отпадъци. Всеки от нас изхвърля средно по 3,5 килограма боклуци на ден, като по-голямата част от тях се изгарят в депата за отпадъци. </string>-->
+    <!--<string name="global_warming">През 2000, рециклирането на твърди отпадъци "спести" на въздуха--><!--32 900 000 тона въглероден диоксид </string>--><!--Reduces Water Pollution Making goods from recycled materials generates--><!--far less water pollution than manufacturing from virgin materials.--><!--<string name="water_pollution">Благодарение на рециклирането замърсяването на водните ресурси е--><!--значително по-малко отколкото при производство с необработени суровини. </string>--><!--Protects Wildlife Using recycled materials reduces the--><!--need to damage forests, wetlands, rivers and other places essential to wildlife.--><!--<string name="wildlife">Използването на рецклирани материали намалява нуждата от унищожаването на гори,--><!--влажни зони и други ареали за животнските видове.    </string>--><!--<string name="landfill">Предотвратява от създаването на депа за отпадъци. </string>--><!--<string name="garbage">Намалява количеството отпадъци. Всеки от нас изхвърля средно по 3,5 килограма боклуци на ден, като по-голямата част от тях се изгарят в депата за отпадъци. </string>-->

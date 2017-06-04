@@ -168,7 +168,7 @@ private ImageView info;
                 {
                     et_latitude.setText("Моля първо вземете текущите си координати!");
                 } else {
-                    String email = "rcyler.app@gmail.com";
+                    String email = "rcycler.app@gmail.com";
                     String subject = "Добавяне на координати към RcycleR картата";
                     String body = et_latitude.getText().toString() + "\n" + et_longitude.getText().toString();
                     String chooserTitle = "Изпрати координатите със:";

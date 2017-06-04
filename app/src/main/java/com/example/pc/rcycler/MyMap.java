@@ -176,7 +176,7 @@ public class MyMap extends AppCompatActivity
         gToto.setTag(0);
         gPiperka = mGoogleMap.addMarker(new MarkerOptions()
                 .position(greenPiperka)
-                .title("17")
+                .title("18")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
         gPiperka.setTag(0);
 

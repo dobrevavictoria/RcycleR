@@ -8,6 +8,9 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
 
     <permission
         android:name="com.example.android.start.permission.MAPS_RECEIVE"
@@ -28,7 +31,7 @@
         android:name="android.support.multidex.MultiDexApplication"
         android:allowBackup="true"
         android:icon="@drawable/logoto"
-        android:label="RcycleR_10"
+        android:label="RcycleR_tech"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
@@ -81,7 +84,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".MyMap"
             android:label="@string/title_activity_my_map"
@@ -100,12 +102,15 @@
         <activity android:name=".YouTube" />
         <activity
             android:name=".info_list"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"
+            />
         <activity
             android:name=".Try"
-            android:screenOrientation="portrait"
             android:label="@string/title_activity_try"
-            android:theme="@style/AppTheme"/>
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Try2"></activity>
     </application>
 
 </manifest>

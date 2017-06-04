@@ -137,7 +137,24 @@
         android:layout_weight="3"
         android:alpha="0.5"
         android:background="@drawable/back">
-
+        <ImageView
+            android:id="@+id/calendar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/calendar"
+            android:layout_gravity="bottom|left"
+            android:layout_margin="16dp"
+            android:contentDescription="@string/calendar"
+        />
+        <ImageView
+            android:id="@+id/history"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/history"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="16dp"
+            android:contentDescription="@string/history"
+            />
 
 
     </FrameLayout>
